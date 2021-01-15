@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	   <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="TAPAS Global Consulting Ltd is recruitment organisation. Know More!">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="SK">
+        <meta name="theme-color" content="#313131">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TAPAS Global Consulting Ltd | Recutiment, Consulting</title>
+        <meta name="title" content="TAPAS Global Consulting Ltd | Recutiment, Consulting"/>
+        <!-- External CSS file -->
+        <link rel="stylesheet" type="text/css" href = "styles/External_CSS_1_4.css?version=51"<?php echo time(); ?>>
+		<link rel="stylesheet" type="text/css" href = "styles/footer_style_1.css?version=51"<?php echo time(); ?>>
+		<link rel="stylesheet" type="text/css" href = "styles/page_data.css?version=51"<?php echo time(); ?>>
+		<!--
+		<meta name= "viewport" content= "width=device-width initial-scale=1">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Open+sans:400,600,700">
+			  -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	  
+		
+
+		  
+    </head>
+    
+
+<!---------------------- START: Header ------------------------------->
+	<!---------------------- START: Header ------------------------------->
+  <header class="site-header">
+    <div class="site-header-base">
+      <div class="site-logo">
+        <a title="TAPAS Homepage" target="_top" href="
+          <?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_index.php">
+          <img src="images/Logo_home.jpg" width="87" height="53" alt="TAPAS Logo"></a>
+      </div>
+      <div class="header_org_div">
+        <h2 class="header_org_name">Tapas Global Consulting</h2>
+      </div>
+
+      <button id="site-nav-toggler" class="site-nav-toggler" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        &#9776;
+      </button>
+    </div>
+
+    <nav id="site-nav" class="site-nav">
+
+      <div class="site-links">
+        <ul id="horizontal-list">
+          <li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_index.php">Home</a></li>
+          <!-- <li><a href="<?php /*$_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) */?>/test_project/main_services.php#services_section_on_home">Services <span>&#x25BE;</span></a> -->
+          <li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_index.php#services_section_on_home">Services <span>&#x25BE;</span></a> 
+          <!-- <li><a href="#services_section_on_home">Services <span>&#x25BE;</span></a> -->
+
+            <ul class="menu_item_2">
+              <li> <a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_services_internship.php"> Internship </a></li>
+              <li> <a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_services_recruitment.php"> Recruitment </a></li>
+              <!--
+						<li> <a href="#"> Info2 <span>&#x25BE;</span></a>
+								<ul class="menu_item_3">
+									<li> <a href="#"> Aaaaa </a></li>
+									<li> <a href="#"> Bbbbb </a></li>
+									<li> <a href="#"> Ccccc </a></li>
+								</ul>
+						</li>
+						<li> <a href="#"> Info3 </a></li>
+						-->
+            </ul>
+          </li>
+          <!--
+				<li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/indutries.php">Indutries</a></li>
+				-->
+          <li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_why_us.php">Why us</a></li>
+          <li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_about_us.php">About</a></li>
+          <li><a href="<?php $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) ?>/test_project/main_contact_us.php">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!----------------------  END: Header ------------------------>
+        
+<!----------------------  END: Header ------------------------>
+
+	<body>
+
+<!---------------------- START: Image Slie Show ------------------------->
+		<?php include('main_slideshow.php'); ?>
+<!----------------------  End: Image Slie Show ---------------------->
+
+<!----------------------  START: Main ----------------------------------------
+	    <div class="main_page"> -->
+		    <?php 
+			/* include('main_side_bar_menu.php');  */
+			?>
+	       
+	     <div class="main_article">
+			
+			<div class = "page_para_div_home_page_intro"><?php include('text/home_text/home_page_intro.html'); ?></div>
+			<div class = "page_para_div_home_page_intro"><?php include('text/home_text/home_page_introduction.html'); ?></div>
+			<div class = "page_para_div_home_page_testmonials"><?php include('text/home_text/home_page_testimonials.html'); ?></div>
+
+	     </div>
+		 <!--
+	     <div class="main_3rd_column">
+			<h1> Main heading 2 </h1>
+		 </div>
+		 -->
+	   </div>
+<!--------------------------- END: Main --------------------------------------->
+<!--------------------------- START: Footer ----------------------------------------->
+
+		<?php include('main_footer.php'); ?>
+<!--------------------------- END: Footer! --------------------------------->
+<!--------------------------- Function:  Header Navigation ----------------------------------------->
+<script type="text/javascript" src="main_script_1.js"></script>  
+
+    </body>
+</html>
