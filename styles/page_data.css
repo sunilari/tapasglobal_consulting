@@ -1,0 +1,1109 @@
+
+* {
+	box-sizing: border-box;
+	/* box-sizing: inherit; */
+	
+}
+
+body { 
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clr {
+	clear: both;
+}
+
+.cls_underline {
+	text-decoration: underline;
+}
+
+ /* Home Page Text Style */
+ 
+ /*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Home -> heading --------------------------*/
+
+.page_heading_home_page_div {
+    overflow: hidden;
+	background-color: #edd493;
+	background: linear-gradient(-35deg, #A7CAF1 20%, #DDA6F6 80%);
+	padding: 20px 10px 20px 10px;
+	color: #638FC8;
+	width: 100%;
+	min-height: 600px;
+/* 	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px; */
+	text-align: center;
+/* 	border-radius: 10%; */
+	/* border-radius: 50px; */
+	/* position: relative; */
+}
+.myCanvas_home_page_inside {
+	position:absolute;
+	margin: 0px 0px 100px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 75%;
+	height: 180px;
+	}
+#myCanvas_home_page_heading {
+	left:11%;
+	border:1px solid blue;
+   }
+
+.page_heading_home_page_h1_intern {
+	font-size: 30px;
+	padding: 350px 0px 20px 0px;
+	text-align: right;
+	width: 35%;
+/* 	position: bottom; */
+	/* left: 25%; */
+	float: left;
+	color: #AD0BA6;
+}
+
+
+.myCanvas2_home_intern_img {
+	position:absolute;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 500px;
+	height: 300px;
+	}
+	
+.canvas2_fix_img_in_div1 {
+	/* background-repeat: no-repeat; */
+	/* background-position:center; */
+	/* background-size: cover; */
+	/* object-fit: contain; */
+	height:200px;
+	overflow: hidden;
+	position: relative;
+	min-height: 90%;
+	width: 90%;
+	z-index: -1
+
+
+}
+
+
+	
+.page_heading_home_page_h1_one_stop {
+	font-size: 30px;
+	/* padding: 350px 0px 20px 0px; */
+	text-align: center;
+	width: 40%;
+	min-width: 200px;
+	/* position: bottom; */
+/* 	 width: 100px;
+  height: 100px; */
+
+  position: relative;
+  animation-name: one_stop;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes one_stop {
+  0%   {color: #AD0BA6; left:0px; top:0px;}
+ /*  0%   {color: white; left:0px; top:0px;} */
+  50%  {left:60%; top:0px;}
+  100% {color: #808007; left:0px; top:0px;}
+  /* 100% {background-color: #808007; left:0px; top:0px;} */
+}
+
+
+#stepContainer_right {
+   width: 15%;
+   position: absolute;
+   left: 60%;
+   /* padding: 20px 20px 10px 20px; */
+   margin: 172px 0px 1px 0px;
+   /* top: 210px; */
+   /* background-color: white; */
+   
+}
+
+#stepContainer_left {
+   width: 15%;
+   position: absolute;
+   left: 25%;
+   margin: 172px 0px 1px 0px;
+   /* background-color: white; */
+   
+}
+
+.step_right {
+   /* width: 100%;
+   height: 20px; */
+   border-bottom: 10px solid rgba(0,0,0,0.5);
+}
+.step_right:nth-child(1) { width: 70%; height :25px; background-color: #F1F5BB; margin-left: 15px; border-bottom: 7px solid rgba(0,0,0,0.5)}
+.step_right:nth-child(2) { width: 80%; height :30px; background-color: #CFD577;  margin-left: 10px; border-bottom: 8px solid rgba(0,0,0,0.5)}
+.step_right:nth-child(3) { width: 90%; height :35px; background-color: #DFE84F;  margin-left: 5px; border-bottom: 9px solid rgba(0,0,0,0.5)}
+.step_right:nth-child(4) { width: 100%; height :40px; background-color: #B7C20A;  margin-left: 0px; border-bottom: 10px solid rgba(0,0,0,0.5)}
+
+.step_left {
+/*    width: 100%;
+   height: 20px; */
+   border-bottom: 10px solid rgba(0,0,0,0.5);
+}
+
+.step_left:nth-child(1) { width: 70%; height :25px; background-color: #E1BACD; margin-left: 15px; border-bottom: 7px solid rgba(0,0,0,0.5)}
+.step_left:nth-child(2) { width: 80%; height :30px; background-color: #CD79A2;  margin-left: 10px; border-bottom: 8px solid rgba(0,0,0,0.5)}
+.step_left:nth-child(3) { width: 90%; height :35px; background-color: #DE4791;  margin-left: 5px; border-bottom: 9px solid rgba(0,0,0,0.5)}
+.step_left:nth-child(4) { width: 100%; height :40px; background-color: #C9146C;  margin-left: 0px; border-bottom: 10px solid rgba(0,0,0,0.5)}
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Home -> Intro --------------------------*/
+
+.page_para_div_home_page_intro {
+    overflow: hidden;
+	/* background-color: #f1f1f1;
+	background-color: blue; */
+	/* background: linear-gradient(-135deg, #CDDEF3 20%, #59A0F7 80%); */
+	background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%); 
+	color: #1245AB;
+	width: 100%;
+	height: auto;
+	line-height: 160%;
+/* 	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px; */
+	/* border-radius: 50px; */
+	text-align: center;
+	white-space: pre-line;
+/* 	overflow:scroll; */
+}
+.page_para_div_home_page_testmonials {
+    overflow: hidden;
+	background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%); 
+	/* color: #1245AB; */
+	width: 100%;
+	height: auto;
+	min-height: 700px;
+	/* line-height: 160%; */
+	text-align: center; 
+	/* padding: 50px 50px 50px 50px; */
+	/* white-space: pre-line; */
+}
+.page_para_div_text {
+	font-size: 18px;
+	color: red;
+}
+.heading_home_page_intro {
+	font-size: 28px;
+	color: #90427F;
+	font-family: Arial Black;
+	float: center;
+	align: center;
+	
+}
+
+.para_text {
+	font-size: 40px;
+	/* letter-spacing: -2px; */
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fix_img_in_div_1 {
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	object-fit: contain;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	min-height: 300px;
+	/* width: 100%; */
+	/* padding: 20px 20px 20px 50px; */
+	margin: 20px 20px 20px 20px;
+	/* float:left;  */
+	/* width: 15%;  */
+	/* background-image: url('images/slide_1_1.jpg'); */
+	max-width: 500px;
+
+}
+
+.fix_img_in_div_2 {
+	/* background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover; */
+	/* object-fit: contain; */
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	min-height: 500px;
+	margin: 20px 20px 20px 20px;
+}
+
+.div_testimonials_photo {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 20px 20px 20px 20px;
+	float:left;
+}
+
+
+.testimonials_text {
+	text-align: center;
+	/* position: relative; */
+	color: #46695b;
+	white-space: pre-wrap;
+	word-wrap: break-all;
+	/* font-size: 100%; */
+	font-size: calc(10px + 1vw);
+	padding: 40px 40px 40px 40px;
+	background-color: #edf7cb;
+	border-radius: 10px;
+	line-height: 160%;
+	min-height: 350px;
+	border: 2px solid #43517a; 
+}
+
+
+.img_testimonials_photo {
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	}
+
+@media screen and (min-width: 992px) {
+	.div_1_left_alignment {
+		width: 40%;
+		float:left;
+	}
+	.div_2_right_alignment {
+		width: 55%;
+		float:right;
+	}
+	
+	.div_1_right_alignment {
+		width: 40%;
+		float:right;
+	}
+	.div_2_left_alignment {
+		width: 55%;
+		float:left;
+	}
+	.div_3_left_alignment {
+		width: 40%;
+		float:left;
+	}
+	.div_3_right_alignment {
+		width: 55%;
+		float:right;
+	}
+	.img_services_intro {
+	min-height: 450px;
+	min-width: 450px;
+	width: 100%;
+	height: 100%;
+	/* white-space: pre-wrap; 
+	word-wrap: break-all; */ 
+	}
+	.services_internship_text_points {
+	text-align: left;
+	/* position: relative; */
+	color: #912e07;
+	/* white-space: pre-wrap; */
+	/* word-wrap: break-all; */
+	/* font-size: 100%; */
+	font-size: calc(2px + 1.5vw);
+	padding: 20px 20px 20px 20px;
+	line-height: 160%;
+	}
+	.div_recruitment_top_text_right_alignment {
+		width: 35%;
+		float:right;
+		margin: 200px 80px 20px 20px
+	}
+	.img_recruitment_head {
+	min-height: 350px;
+	min-width: 350px;
+	width: 100%;
+	margin: 20px 20px 20px 20px 
+	
+	}
+	.div_recruitment_head_left_alignment {
+	width: 50%;
+	float:left;
+	
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.div_1_alignment .div_2_alignment .div_1_right_alignment .div_2_left_alignment {
+		width: 70%;
+		float: center;
+		margin: 20px 20px 20px 20px;
+		max-width: 350px;
+	}
+	.img_services_intro {
+	min-height: 450px;
+	min-width: 450px;
+	width: 100%;
+	
+	}
+	.services_internship_text_points {
+	text-align: left;
+	/* position: relative; */
+	color: #912e07;
+	/* white-space: pre-wrap; */
+	/* word-wrap: break-all; */
+	/* font-size: 100%; */
+	font-size: calc(8px + 1.5vw);
+	padding: 20px 20px 20px 20px;
+	line-height: 160%;
+	}
+	
+	.img_recruitment_head {
+	min-height: 350px;
+	min-width: 350px;
+	width: 100%;
+	margin: 20px 20px 20px 20px 
+	
+	}
+	.div_recruitment_head_left_alignment {
+	width: 80%;
+	float:left;
+	
+	}
+	.div_recruitment_top_text_right_alignment {
+		width: 80%;
+		float:center;
+		margin: 50px 50px 20px 50px
+	}
+}
+	
+	
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Home -> internship --------------------------*/
+
+.page_para_div_home_page_internships {
+    overflow: hidden;
+	background-color: #edeff5; 
+	/* padding: 20px 20px 10px 20px; */
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+	/* border-radius: 20px; */
+	/* text-align: center;
+	white-space: pre-wrap;
+	word-wrap: break-word; */
+	background: linear-gradient(-40deg, #f7f7f7 40%, #ced8f2 60%, #d1d4de 80%); 
+}
+
+
+
+.home_internship_heading {
+	text-align: center;
+	position: relative;
+	color: #912e07;
+	text-align: center;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-size: calc(8px + 3vw);
+	/* border: 1px solid black; */
+}
+
+
+.home_internship_text {
+	text-align: center;
+	/* position: relative; */
+	color: #912e07;
+	white-space: pre-wrap;
+	word-wrap: break-all;
+	/* font-size: 100%; */
+	font-size: calc(10px + 1vw);
+	padding: 20px 20px 20px 20px
+}
+
+.home_intern_background_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: right;
+  transform: translate(-50%, -50%);
+  color: #912e07;
+}
+.home_intern_background_image {
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  /* display: flex; */
+  position: absolute; 
+  width: 100%;
+  /* min-width: 400px; */
+  
+}
+
+.services_div_in_home {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+	float: left;
+	text-align: left;
+	padding: 50px 50px 50px 50px;
+}
+
+.services_in_home_heading {
+		font-size: calc(15px + 3vw);
+		color: #fafafa;
+	}
+.services_in_home_text {
+		font-size: calc(10px + 1vw);
+		color: #fafafa;
+		
+	}
+
+.testimonials_in_home_heading {
+		font-size: calc(5px + 3vw);
+		color: #fafafa;
+		
+	}
+.testimonials_div_in_home {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: #4a3d4a;
+	float: left;
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+	border-radius: 4%;
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Home -> recruitment --------------------------*/
+
+.page_para_div_home_page_recruitment {
+    overflow: hidden;
+	background-color: #FFFFFF;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+	/* border-radius: 20px; */
+	text-align: center;
+	white-space: pre-line;
+	word-wrap: break-word;
+	/* background: linear-gradient(-40deg, #dbc267 40%, #b5ac43 60%, #ebebab 80%); */
+	/* background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%);  */
+}
+
+.page_heading_home_page_h1_recuitment {
+	font-size: 30px;
+	padding: 350px 0px 20px 0px;
+	text-align: center;
+	width: 60%;
+	position: left;
+/* 	left: 60%; */
+	float: right;
+	color: #808007;
+}
+
+
+
+
+.circle_home_recruitment {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: blue;
+    display: table-cell;
+    text-align: center;
+    background: yellow;
+	vertical-align: middle;
+}
+.circle_home_recruitment_1 {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%; 
+  background: yellow;
+  }
+
+  .circle_home_recruitment_2 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  background: yellow;
+}
+
+
+canvas#viewport { border: 1px solid white; width: 900px; }
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Services ->  --------------------------*/
+
+.div_one_level_up {
+	clear: both;
+	/* z-index: 1; */
+	position: sticky;
+	background-color: yellow;
+	top: 10px;
+  border: 3px solid #8AC007;
+}
+ 
+
+.page_heading_services_page_div {
+    overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 10px 0px 10px 10px;
+	color: #638FC8;
+	width: 100%;
+}
+
+.page_heading_services_page_h1_text {
+	font-size: 30px;
+	padding: 20px 0px 20px 0px;
+}
+
+.page_heading_services_page_div {
+    overflow: hidden;
+	background-color: #edd493;
+	padding: 20px 10px 20px 10px;
+	color: #638FC8;
+	width: 100%;
+/* 	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px; */
+	text-align: center;
+/* 	border-radius: 10%; */
+	border-radius: 50px;
+}
+
+
+.page_para_div_services_page_intro {
+    overflow: hidden;
+	/* background-color: #f1f1f1;
+	background-color: blue; */
+	/* background: linear-gradient(-135deg, #CDDEF3 20%, #59A0F7 80%); */
+	background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%); 
+	color: #1245AB;
+	width: 100%;
+	height: 100%;
+	line-height: 160%;
+/* 	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px; */
+	/* border-radius: 50px; */
+	text-align: center;
+	white-space: pre-line;
+/* 	overflow:scroll; */
+}
+
+
+
+
+
+.page_para_div_services_page_internships {
+    overflow: hidden;
+	background-color: #EFF7EF;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+.page_para_div_services_page_recruitment {
+    overflow: hidden;
+	background-color: #E5F9E7;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+
+.small_frame_services_below {
+	display: inline-table;
+	/* clear: both; */
+	position: relative;
+	border: 3px solid #3393d4;
+	background: linear-gradient(-40deg, #646b70 30%, #b5ac43 50%, #b56a0e 80%);
+	padding: 5px 0px 5px 5px; 
+	margin: 20px 20px 20px 20px;
+	/* height: 100%; */
+	border-radius: 20px;
+	
+	
+}
+.small_frame_services_up {
+	width: 90%;
+	float: center;
+	text-align:center;
+	/* display:block; */
+	/* clear: both; */
+	position: relative;
+	border: 1px solid #9c5c32;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+	min-height: 420px;
+	border-radius: 20px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Services -> Internship --------------------------*/
+
+.img_internship_top {
+	/* max-height: 400px; */
+	/* min-width: 350px; */
+	width: 100%;
+	position: relative;
+	margin: auto;
+	/* margin: 20px 20px 20px 20px  */
+	
+	}
+
+.div_internship_top {
+	/* clear: both; */
+	width: 100%;
+	float:center;
+	background-color: #4f5357;
+	/* max-height: 400px; */
+	}
+
+.services_internship_heading {
+	text-align: center;
+	position: relative;
+	color: #912e07;
+	text-align: center;
+	white-space: pre-wrap;
+	/* word-wrap: break-word; */
+	font-size: calc(8px + 2vw);
+	/* border: 1px solid black; */
+}
+.services_internship_intro_text {
+	text-align: center;
+	/* position: relative; */
+	color: #ffffff;
+	white-space: pre-wrap;
+	word-wrap: break-all;
+	/* font-size: 100%; */
+	font-size: calc(10px + 1vw);
+	padding: 20px 20px 20px 20px;
+	background-color: #737578;
+	border-radius: 50px;
+	line-height: 160%;
+	/* min-height: 350px; */
+}
+
+.services_internship_text {
+	text-align: left;
+	position: relative;
+	color: #171210;
+	white-space: pre-line;
+	word-wrap: break-all; 
+	font-size: calc(8px + 1vw);
+	padding: 20px 20px 20px 20px;
+	background-color: #e0dfde;
+	border-radius: 50px;
+	line-height: 160%;
+    font-weight: 500;
+	width: 100%;
+	margin: auto;
+}
+
+.page_para_div_services_internship_page_intro {
+    /* overflow: hidden; */
+	background-color: #ffffff;
+	/* background-color: blue; */
+	/* background: linear-gradient(-40deg, #dbc267 40%, #b5ac43 70%, #ebebab 80%); */
+	padding: 70px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	/* border-radius: 50px; */
+	/* overflow:scroll; */
+}
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Services -> Recuitment --------------------------*/
+
+
+.heading_home_page_intro {
+	font-size: calc(12px + 1vw);
+	color: #543e23;
+	font-family: Arial Black;
+	float: center;
+	align: center;
+	
+}
+
+	.services_recruitment_head_2_text {
+	text-align: center;
+	/* position: relative; */
+	color: #585b5c;
+	white-space: pre-wrap;
+	word-wrap: break-all;
+	/* font-size: 100%; */
+	padding: 20px 20px 20px 20px
+}
+
+
+@media screen and (min-width: 992px) {
+	.services_recruitment_head_2_text_font {
+	font-size: calc(6px + 1vw);
+	}
+	.div_centre_alignment {
+	width: 90%;
+	/* float:left; */
+	
+	}
+	.div_width_50pc-on-small-30pc-on-big {
+	width: 30%;
+	}
+	.div_width_90pc-on-small-70pc-on-big {
+	width: 70%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.services_recruitment_head_2_text_font {
+	font-size: calc(10px + 1vw);
+	}
+	.div_centre_alignment {
+	width: 90%;
+	/* float: left; */
+	/* min-width: 500px; */
+	}
+	.div_width_50pc-on-small-30pc-on-big {
+	width: 50%;
+	}
+	.div_width_90pc-on-small-70pc-on-big {
+	width: 90%;
+	}
+}
+
+.small_frame_below {
+	display: inline-table;
+	/* clear: both; */
+	position: relative;
+	border: 3px solid #9c5c32;
+	background: linear-gradient(-40deg, #e4e7f0 30%, #b5ac43 50%, #2c3447 80%);
+	padding: 5px 0px 5px 5px; 
+	margin: 20px 20px 20px 20px;
+	/* height: 100%; */
+	border-radius: 3px;
+	
+	
+}
+.small_frame_up {
+	width: 90%;
+	float: center;
+	text-align:center;
+	/* display:block; */
+	/* clear: both; */
+	position: relative;
+	border: 1px solid #9c5c32;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+	min-height: 420px;
+	border-radius: 8px;
+}
+
+
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+#myDIV {
+  background: red;
+  animation: mymove 2s infinite;
+}
+
+.div_flot_left{
+	float:left;
+}
+.div_flot_right{
+	float:right;
+}
+.div_postition_relative {
+	position: relative;
+}
+
+	
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- why us ->  --------------------------*/
+
+
+.page_para_div_why_us_page {
+    overflow: hidden;
+	background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%); 
+	color: #1245AB;
+	width: 100%;
+	height: 100%;
+	line-height: 160%;
+	text-align: center;
+	/* white-space: pre-line; */
+}
+
+
+.summary_big_div_in_why_us {
+	min-height: 200px;
+	margin: auto;
+	/* text-align: right; */
+	/* padding: 50px 50px 50px 50px; */
+	width: 100%; 
+	display: table; 
+	background-color: #e1e2e6;
+}
+
+.summary_left_div_in_why_us {
+	width: 30%;
+	float: left;
+	text-align: center; 
+	color: #ffffff;
+	display: inline-table;
+	position: relative;
+}
+.summary_right_div_in_why_us {
+	width: 70%;
+	float: left;
+	display: inline-table;
+	position: relative;
+}
+
+.summary_small_div_in_why_us {
+	width: 20%; 
+	text-align: left; 
+	margin: 10px 30px 0px 30px;
+	/* padding: 10px 10px 10px 10px; */
+	display: inline-table;
+	position: relative;
+	border-bottom: 1px solid #2f3352;
+	float: left;
+}
+.summary_small_div_in_why_us>a:hover, .summary_small_div_in_why_us>a:focus {
+	background-color: #ffffff;
+	color: blue;
+}
+
+.summary_all_in_why_us_heading {
+		font-size: calc(20px + 1vw);
+		color: #1f242b;
+		text-decoration: none;
+	}
+.summary_all_in_why_us_text {
+		font-size: calc(15px + 1vw);
+		color: #1f242b;
+		text-decoration: none;
+	}
+	
+.internship_div_in_why_us {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: #2276f5;
+	float: left;
+	text-align: right;
+	padding: 50px 50px 50px 50px;
+}
+
+.internship_in_why_us_heading {
+		font-size: calc(15px + 3vw);
+		color: #fafafa;
+	}
+.internship_div_in_why_us_text {
+		font-size: calc(10px + 1vw);
+		color: #fafafa;
+		
+	}
+	
+
+.small_frame_below_why_us {
+	display: inline-table;
+	/* clear: both; */
+	position: relative;
+	/* border: 1px solid #9c5c32;
+	/* background: linear-gradient(-40deg, #e4e7f0 30%, #b5ac43 50%, #2c3447 80%); */
+	/* padding: 5px 0px 5px 5px;  */
+	margin: 20px 20px 20px 20px;
+	/* height: 100%; */
+	border-radius: 3px;
+	
+	
+}
+.small_frame_up_why_us {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	/* display:block; */
+	/* clear: both; */
+	position: relative;
+	border: 1px solid #9c5c32;
+	padding: 20px 20px 20px 20px;
+	/* margin: 10px 10px 10px 10px; */
+	background-color: white;
+	min-height: 420px;
+	border-radius: 8px;
+	white-space: pre-line;
+}
+
+	
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Contact ->  --------------------------*/
+
+
+.error {
+	color: #FF0000;
+	font-size: 11px;
+	}
+.page_heading_contact_us_page_div {
+    overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 10px 0px 10px 10px;
+	color: #638FC8;
+	width: 100%;
+}
+
+.page_heading_contact_us_page_h1_text {
+	font-size: 30px;
+	padding: 20px 0px 20px 0px;
+}
+
+.page_para_div {
+    overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+.page_para_div_contact_us_page_intro {
+    overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+.page_para_div_contact_us_page_internships {
+    overflow: hidden;
+	background-color: #EFF7EF;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+.page_para_div_contact_us_page_recruitment {
+    overflow: hidden;
+	background-color: #E5F9E7;
+	padding: 20px 20px 10px 20px;
+	color: #1245AB;
+	width: 100%;
+	line-height: 160%;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*--------------------------- Contact ->  --------------------------*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+#box {
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  border-top-left-radius: 99px;
+  border-bottom-left-radius: 99px;
+  position: relative;
+  margin: 30px;
+}
+
+#box::before,
+#box::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  right: 0;
+  position: absolute;
+}
+
+#box::before {
+	bottom: -20px;
+}
+
+#box::after {
+  top: -20px;
+}

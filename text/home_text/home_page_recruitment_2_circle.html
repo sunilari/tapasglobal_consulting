@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+  
+  
+  
+    <div style="width: 100%; display: table;">
+      <div style="display: table-row">
+        <div class="home_internship_heading">
+          <h3>Recruitment +++ </h3>
+        </div>
+        <div id="photo-nav" style="background-image: url('images/cycle.gif')" class="fix_img_in_div_1 div_1_right_alignment">
+          <!-- <h4>who we are </h4> -->
+        </div>
+        <div class="home_internship_text div_2_left_alignment">
+
+          <p>
+            Our <strong>unique and cost effective Recruitment Solutions </strong>are
+            tailored to suit organization irrespective of their size, turnover and hiring needs.
+            Our <strong>approach is highly specialized </strong> and aim at
+            assisting small, mid and big sized corporations so that <strong>they can focus on their core businesses </strong>
+            by taking up their recruitment related needs in return of nominal charges.
+            We are very <strong>transparent in our approach and our commitment to Quality,
+              Turnaround Time (TAT) Recruitment, Industry Knowledge and
+              our Unparalleled Ways to recruit the best talent in the industry</strong>
+          </p>
+		  
+		  <p id="demo"></p>
+		  
+        </div>
+      </div>
+    </div>
+  </body>
+  
+<script>
+document.getElementById("demo").innerHTML = "Our <strong>unique and cost effective Recruitment Solutions </strong>are </br> ok ji </br> ok ok";
+</script>
+
+<style>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p><button onclick="myMove()">Click Me</button></p> 
+<div onmouseover() = "myMove()" style="background-color:#D94A38;width:120px;height:20px;padding:40px;"> <p> ok </p></div>
+
+<div id ="container">
+  <div id ="animate"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+</script>
+
+
+<div class="hair" onclick="rotate()">
+    <img src="images/cycle.gif" id="hair1" width="10" height="40">
+    <img src="images/cycle.gif" id="hair2" width="10" height="40">
+    <img src="images/cycle.gif" id="hair3" width="10" height="40">
+    <img src="images/cycle.gif" id="hair4" width="10" height="40">
+    <img src="images/cycle.gif" id="hair5" width="10" height="40">
+    <img src="images/cycle.gif" id="hair6" width="10" height="40">
+    <img src="images/cycle.gif" id="hair7" width="10" height="40">
+    <img src="images/cycle.gif" id="hair8" width="10" height="40">
+    <img src="images/cycle.gif" id="hair9" width="10" height="40">
+    <img src="images/cycle.gif" id="hair10" width="10" height="40">
+</div>
+
+
+<style>
+.rotate
+{
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotate(40deg);
+}
+
+.hair img
+{
+  border: 1px solid #333;
+}
+</style>
+<script>
+function rotate(){
+  for(var i=1;i<11;i++) {
+    // use a closure to capture the value of i (in an
+    // argument called local_i
+    (function (local_i) {
+      setTimeout(function(){
+        // use classlist to add the class to the element 
+        // to animate it using CSS. 
+        // More info: http://mzl.la/17igoRR
+        document.getElementById('hair' + local_i).classList.add('rotate');
+      }, 100 * local_i);
+    })(i);
+  }
+}
+</script>
+
+
+
+    <div class="circle_home_recruitment">Hello I am A Circle.</div>
+    <div class="circle_home_recruitment_1">Hello I am A Circle</div>
+    <div class="circle_home_recruitment_2">Hello I am A Circle </br> Hello I am A Circle </br>Hello I am A Circle </div>
+
+    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var centerX1 = canvas.width / 9;
+      var centerY1 = canvas.height / 2;
+      var centerX2 = canvas.width / 2;
+      var centerY2 = canvas.height / 9;
+      var centerX3 = canvas.width * 8 / 9;
+      var centerY3 = canvas.height / 2;
+      var centerX4 = canvas.width / 2;
+      var centerY4 = canvas.height * 8 / 9;
+      var centerX5 = canvas.width * 6 / 12;
+      var centerY5 = canvas.height / 2;
+
+      var radius_small = canvas.width / 9;
+      var radius_big = radius_small * 1.8;
+
+      context.beginPath();
+      context.arc(centerX1, centerY1, radius_small, 0, 2 * Math.PI, false);
+      context.fillStyle = '#e38d4b';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+      context.beginPath();
+      context.fillStyle = "white";
+      context.fillText("Proactive  database pooling", (centerX1 - radius_small) + radius_small / 3, centerY1);
+      context.fill();
+
+      context.beginPath();
+      context.arc(centerX2, centerY2, radius_small, 0, 2 * Math.PI, false);
+      context.fillStyle = '#e38d4b';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+
+      context.beginPath();
+      context.arc(centerX3, centerY3, radius_small, 0, 2 * Math.PI, false);
+      context.fillStyle = 'green';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+
+      context.beginPath();
+      context.arc(centerX4, centerY4, radius_small, 0, 2 * Math.PI, false);
+      context.fillStyle = 'green';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+
+      context.beginPath();
+      context.arc(centerX5, centerY5, radius_big, 0, 2 * Math.PI, false);
+      context.fillStyle = 'green';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+      context.beginPath();
+      context.fillStyle = "red";
+      context.fillText("Hello World!", (centerX5 - radius_big) + radius_big / 3, centerY5);
+      context.fill();
+
+    </script>
+
+    <canvas id="myCanvas1" width="600" height="200" style="border:1px solid #d3d3d3;"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas1');
+      var context = canvas.getContext('2d');
+      var centerX1 = canvas.width / 9;
+      var centerY1 = canvas.height / 2;
+      var centerX2 = canvas.width / 2;
+      var centerY2 = canvas.height / 9;
+      var centerX3 = canvas.width * 8 / 9;
+      var centerY3 = canvas.height / 2;
+      var centerX4 = canvas.width / 2;
+      var centerY4 = canvas.height * 8 / 9;
+      var centerX5 = canvas.width * 6 / 12;
+      var centerY5 = canvas.height / 2;
+
+      var radius_small = canvas.width / 9;
+      var radius_big = radius_small * 1.8;
+
+      context.beginPath();
+      context.arc(centerX1 * 2, centerY1 * 1.9, radius_small * 2, 0, 2 * Math.PI, false);
+      context.fillStyle = 'white';
+      context.fill();
+      context.lineWidth = 0;
+      context.strokeStyle = 'white';
+      context.stroke();
+      context.beginPath();
+      context.fillStyle = "blue";
+      context.fillText("Proactive  database pooling", (centerX1 - radius_small) + radius_small / 3, centerY1 * 1.9);
+      context.fill();
+
+      /*  
+	  context.beginPath();
+      context.arc(centerX2, centerY2, radius_small, 0, 2 * Math.PI, false);
+      context.fillStyle = '#e38d4b';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+	  */
+      context.beginPath();
+      context.arc(centerX3 / 1.2, centerY3 * 1.8, radius_small * 1.2, 0, 2 * Math.PI, false);
+      context.fillStyle = 'white';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+      /*
+	  context.beginPath();
+      context.arc(centerX4/3.2, centerY4/1.15, radius_small/1.5, 0, 2 * Math.PI, false);
+      context.fillStyle = 'white';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = 'white';
+      context.stroke(); 
+	  */
+
+
+      context.beginPath();
+      context.arc(centerX5, centerY5 * 1.7, radius_big * 1.2, 0, 2 * Math.PI, false);
+      context.fillStyle = 'white';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = 'white';
+      context.stroke();
+      context.beginPath();
+      context.fillStyle = "red";
+      context.fillText("Hello World!", (centerX5 - radius_big) + radius_big / 3, centerY5 * 1.7);
+      context.fill();
+
+    </script>
+
+  </body>
+
+</html>
