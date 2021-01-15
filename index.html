@@ -5,9 +5,18 @@
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
-<h1>My Name Is INDIA</h1>
+<include src="a.html"></include>
 
-<div <link rel="import" href="text/home_text/home_page_intro.html"></div>
+<div data-include="a"></div>
+    <script> 
+$(function () {
+  var includes = $('[data-include]')
+  $.each(includes, function () {
+    var file = 'views/' + $(this).data('include') + '.html'
+    $(this).load(file)
+  })
+})
+    </script>
 
 </body>
 </html>
